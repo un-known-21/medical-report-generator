@@ -16,3 +16,4 @@ A simple web app that generates a medical report based on user input.
 - Backend with Node.js
 - MySQL database
 - User authentication
+- Report History
