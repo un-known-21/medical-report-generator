@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Report Generator</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Medical Report Generator</h2>
+        <div id="info_Box">
+            <div>
+                <label for="nameEl"><strong>Name:</strong></label>
+                <input type="text" placeholder="Enter Name" id="nameEl">
+            </div>
+            <div>
+                <label for="ageEl"><strong>Age:</strong></label>
+                <input type="number" placeholder="Enter Age" id="ageEl">
+            </div>
+            <div>
+                <label for="symptomsEl"><strong>Symptoms:</strong></label>
+                <input type="text" placeholder="Enter Symptoms" id="symptomsEl">
+            </div>
+        <button id="generateRpt">Generate Report</button>
+        </div>
+        <div id="report"></div>
+    </div>
+    <script src = "Script.js"></script>
+</body>
+</html>

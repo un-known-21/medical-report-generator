@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Report</title>
+    <linK rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <script>
+    let users = JSON.parse(localStorage.getItem("users"));
+
+    // Get Latest Entry
+    let latestUser = users[users.length - 1];
+
+    document.body.innerHTML  += ` 
+        <div id = "card">
+            <h3>Medical Report</h3>
+            <p><strong style = "text-decoration: underline;">Name</strong><strong>:</strong> ${latestUser.name}</p>
+            <p><strong style = "text-decoration: underline;">Age</strong><strong>:</strong> ${latestUser.age}</p>
+            <p><strong style = "text-decoration: underline;">Symptoms</strong><strong>:</strong> ${latestUser.symptoms}</p>
+            <p><strong style = "text-decoration: underline;">Diagnosis</strong><strong>:</strong> ${latestUser.diagnosis}</p>
+        </div>
+    `;
+    </script>
+    
+</body>
+</html>

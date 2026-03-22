@@ -1,0 +1,84 @@
+#container {
+    background-color:rgb(32, 39, 39);
+    padding:20px;
+    text-align: center;
+    margin: 50px;
+    width: 350px;
+    height: 230px;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 10px;
+}
+h2 {
+    color: white;
+    border: solid 2px whitesmoke;
+    width: 300px;
+    margin-left: 25px;
+    font-size: 25px;
+    box-shadow: 0px 0px 8px black;
+    padding: 2px;
+}
+#info_Box {
+    padding: 3px;
+    text-align: left;
+}
+input {
+    border: none;
+    margin:5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2px;
+    padding:2.5px;
+    text-align: left;
+    box-shadow: inset 0 1px 5px black;
+}
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:aquamarine;
+    font-size: 18px;
+}
+button {
+    margin-right: 50px;
+    margin-top: 15px;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px black;
+}
+button:hover {
+    transform: translateX(-3px);
+    background: var(--5);
+    color: white;
+}
+body {
+    margin-left: 35%;
+    background-color: rgb(63, 83, 83);
+}
+#card {
+    background-color: rgb(32, 39, 39);
+    color: white;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px black;
+    margin: 50px;
+}
+#card h3 {
+    color: white;
+    border: solid 2px whitesmoke;
+    width: 200px;
+    font-size: 25px;
+    box-shadow: 0px 0px 8px black;
+    padding: 3px;
+    margin-left: 40px;
+}
+#card p  {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:aquamarine;
+    font-size: 18px;
+    text-align: left;
+}
