@@ -1,4 +1,4 @@
-# Medical Report Generator (Version I)
+# Medical Report Generator [Version-I]
 A simple web app that generates a medical report based on user input.
 
 ## Features
